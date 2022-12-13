@@ -17,7 +17,7 @@ pub fn set_time(gameband: Gameband) -> Result<(),String> {
     buf[1] = 2;
     pack_time(&mut buf, 5, seconds);
     match gameband.device.write(&buf) {
-        Ok(size) => {Ok(()) }
+        Ok(_) => {Ok(()) }
         Err(err) => {Err(err.to_string())}
     }
 }
