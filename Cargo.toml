@@ -1,6 +1,6 @@
 [package]
 name = "oxidefurnace"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "HID Library for communicating with Minecraft+Gameband"
 license = "MIT"
