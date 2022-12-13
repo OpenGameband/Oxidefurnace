@@ -1,6 +1,5 @@
 use std::fmt::Error;
 use std::time::{SystemTime, UNIX_EPOCH};
-use hidapi::{HidError, HidResult};
 use crate::gameband::Gameband;
 
 fn pack_time(buf: &mut [u8], offset: usize, seconds: u64) {
