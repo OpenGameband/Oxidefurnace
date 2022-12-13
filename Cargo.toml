@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 description = "HID Library for communicating with Minecraft+Gameband"
 license-file = "LICENSE"
+homepage = "https://github.com/OpenGameband/Oxidefurnace"
+repository = "https://github.com/OpenGameband/Oxidefurnace"
+documentation = "https://github.com/OpenGameband/Oxidefurnace/wiki"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
