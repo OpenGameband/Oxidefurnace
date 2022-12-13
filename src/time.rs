@@ -1,4 +1,3 @@
-use core::panicking::panic;
 use std::fmt::Error;
 use std::time::{SystemTime, UNIX_EPOCH};
 use hidapi::{HidError, HidResult};

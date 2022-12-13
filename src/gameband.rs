@@ -1,4 +1,3 @@
-use core::panicking::panic;
 use hidapi::HidDevice;
 
 pub struct Gameband {
